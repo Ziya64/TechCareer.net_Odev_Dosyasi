@@ -27,7 +27,6 @@ private ActivityMainBinding binding;
 
 
 
-
       binding.button0.setOnClickListener(view -> {
           TIKLA_NUMARA(0);
       });
@@ -70,12 +69,6 @@ private ActivityMainBinding binding;
         binding.buttonEsittir.setOnClickListener(view -> {
             TIKLA_SEMBOL("=");
         });
-
-
-
-
-
-
 
 
     }
@@ -133,23 +126,13 @@ private ActivityMainBinding binding;
                         }
                         break;
 
-
-
                     }
                 }
 
 
             }
             break;
-            case ",":
-            {
-
-            }
-            break;
-
-
-
-
+           
         }
     }
 
