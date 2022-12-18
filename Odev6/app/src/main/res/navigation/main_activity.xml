@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.odev6.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/action_anasayfaFragment_to_detayliMainActivity"
+            app:destination="@id/detayliMainActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/detayliMainActivity"
+        android:name="com.example.odev6.DetayliMainActivity"
+        android:label="activity_detayli_main"
+        tools:layout="@layout/activity_detayli_main" />
+</navigation>
